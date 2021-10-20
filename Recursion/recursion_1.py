@@ -7,15 +7,15 @@
 
 # Example 2 - ulgometh (fixed)
 
-# def ulgometh(x):
-#     if x > 0:
-#         print(x)
-#         ulgometh(x-1)
-# ulgometh(5)
+def ulgometh(x):
+    if x > 0:
+        print(x)
+        ulgometh(x-1)
+ulgometh(5)
 
-# Example 3 - lists 
-# letters = ["A","B","C"]
-# numbers = [1,2,3]
+Example 3 - lists 
+letters = ["A","B","C"]
+numbers = [1,2,3]
 
 # def join(letters, numbers):
 #     if len(letters)>0:
